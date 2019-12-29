@@ -4,7 +4,9 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
+import VueGallery from 'vue-gallery'
 
+Vue.component('VGallery', VueGallery)
 new Vue({
   router,
   store,
